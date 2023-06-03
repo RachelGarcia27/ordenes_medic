@@ -1,0 +1,202 @@
+<div id="formContent" style="width: 784px; height: 600px;">                                                                                                            
+    <div class="w2ui-page page-0" style="padding: 2px; width: 1037px; height: 600px;">
+        <div>
+            <div style="width: 50%; float: left; margin-right: 0px;">
+                <fieldset id="general" style=" color:#665; border-color: #C5C5C5; border-radius: 6px; margin: 8px;">
+                    <legend style="padding: 0.2em 0.5em;">Información del Nuevo Itinerario</legend>
+                        <table id="caracteristicas">
+                          <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="w2ui-field w2ui-span5">
+                                                <label>ID Itinerario:</label>
+                                                <div>
+                                                    <input name="idItinerario" type="text" maxlength="5" size="5" style="text-transform:uppercase">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="w2ui-field w2ui-span3">
+                                                <label>Salida:</label>
+                                                <div>
+                                                    <input name="salida" type="text" size="3" style="text-transform:uppercase">
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="w2ui-field w2ui-span4">
+                                                <label>Descripción:</label>
+                                                <div>
+                                                    <input name="nombreItinerario" type="text" maxlength="150" size="33">
+                                                </div>
+                                            </div>
+                                        </td>
+
+                                    </tr> 
+                                </table>
+                                
+                                
+                            </td>
+                            <td rowspan="2">
+                                <div class="w2ui-field w2ui-span3">
+                                    <label>Ruta:</label>
+                                    <div>
+                                        <input name="idRuta" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span3">
+                                    <label>Origen:</label>
+                                    <div>
+                                        <input name="idA5PuntoOrigen" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span3">
+                                    <label>Destino:</label>
+                                    <div>
+                                        <input name="idA5PuntoDestino" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span3">
+                                    <label>Categoría:</label>
+                                    <div>
+                                        <input name="idCatOperador" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                            </td> 
+                            <td rowspan="2">
+                                <div class="w2ui-field w2ui-span2">
+                                    <label>Rol:</label>
+                                    <div>
+                                        <input name="idRol" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span2">
+                                    <label>Clase:</label>
+                                    <div>
+                                        <input name="idClase" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span2">
+                                    <label>Marca:</label>
+                                    <div>
+                                        <input name="idMarca" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                                <div class="w2ui-field w2ui-span2">
+                                    <label>Tipo:</label>
+                                    <div>
+                                        <input name="idTipo" type="text" maxlength="5" size="38" style="text-transform:uppercase">
+                                    </div>
+                                </div>
+                            </td> 
+                          </tr>
+                          <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="todos" value="1"/>
+                                                Todos
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaLunes" value="1"/>
+                                                L
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaMartes" value="1"/>
+                                                M
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaMiercoles" value="1"/>
+                                                X
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaJueves" value="1"/>
+                                                J
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaViernes" value="1"/>
+                                                V
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaSabado" value="1"/>
+                                                S
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td><div style="position:relative;">
+                                                <label>
+                                                <input type="checkbox" name="aplicaDomingo" value="1"/>
+                                                D
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                          </tr>
+                           <tr>
+                            <td colspan="3">
+                                <hr/>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div style="vertical-align: middle;">
+                                                <label>
+                                                <input type="checkbox" name="asociarItinerario" value="1"/>
+                                                Crear Itinerario de Regreso</label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div >
+                                                <label>
+                                                <input type="checkbox" name="forzarSencillo" value="1"/>
+                                                Forzar Sencillo</label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                          </tr>
+                        </table>
+                </fieldset>
+                <fieldset id="grupo_grid" style=" padding: 10px; color:#665; border-color: #C5C5C5; border-radius: 6px; margin: 8px;">
+                    <legend style="padding: 0.2em 0.5em;">Agregar Puntos</legend>
+                    
+                    <div id="containerPuntos">
+                        <div id="gridPuntos" style="width: 1003px; height: 250px;"></div>
+                    </div>
+                    
+                    
+                </fieldset>
+                
+            </div>
+        </div>
+    </div>
+    <div class="w2ui-buttons">
+        <button name="save" class="w2ui-btn w2ui-btn-blue">Guardar</button>
+        <button name="reset" class="w2ui-btn " style="">Cancelar</button>
+    </div>
+</div>

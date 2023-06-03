@@ -1,0 +1,173 @@
+/* 
+    Hoja de Estilos principal.
+    Created on : 7/04/2016, 08:44:45 AM
+    Author     : rpacheco
+*/
+body {
+    margin: 0px;
+}
+
+.grid_small {
+    width: 500px; 
+    height: 300px;
+}
+
+.grid_medium {
+    width: 700px; 
+    height: 450px;
+}
+
+.grid_big {
+    width: 1024px; 
+    height: 600px;
+}
+
+.grid_xl {
+    width: 1200px; 
+    height: 600px;
+}
+
+.grid_x2 {
+    width: 1400px; 
+    height: 600px;
+}
+
+.grid_resize {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;    
+}
+
+.esc_pr_activo, .esc_pr_activo span {
+    background-color: #ccffcc;
+}
+
+.esc_pr_inactivo, .esc_pr_inactivo span {
+    background-color: #ffffcc;
+}
+
+.esc_ts_coordinado, .esc_ts_coordinado span {
+    background-color: #99ccff;
+}
+
+.esc_ts_alimentador, .esc_ts_alimentador span {
+    background-color: #00cccc;
+}
+
+.esc_ts_regular, .esc_ts_regular span {
+    background-color: #ffcccc;
+}
+
+.esc_ts_plus, .esc_ts_plus span {
+    background-color: #ccffcc;
+}
+
+.esc_orig_bd, .esc_orig_bd span {
+    background-color: #ccffcc;
+}
+
+.esc_orig_hist, .esc_orig_hist span {
+    background-color: #ffffcc;
+}
+
+.w2ui-info-bubble a, 
+.w2ui-info-bubble a:link,
+.w2ui-info-bubble a:visited,
+.w2ui-info-bubble a:hover,
+.w2ui-info-bubble a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.sec_tramos_poblacion {
+    background-color: #ffe066;
+}
+
+.sec_tramos_cveRol {
+    background-color: #e6b800;
+}
+
+.sec_tramos_cafe {
+    background-color: #dfbf9f;
+}
+
+.sec_tramos_salida {
+    background-color: #ffffff;
+}
+
+.sec_tramos_ref {
+    background-color: #00e6b8;
+}
+
+.sec_tramos_beige {
+    background-color: #fff3e6;
+}
+
+.sec_tramos_derivada {
+    background-color: #0066ff;
+}
+
+.fusion_roles_orden {
+    background-color: #1aa3ff;
+}
+
+.selec_roles_prg_strojo {
+    background-color: #ff8080;
+}
+
+.selec_roles_prg_stverde {
+    background-color: #aaff80;
+}
+
+.selec_roles_prg_stcomb_r {
+    background-color: #ff0000;
+    color: #ff0000;
+}
+
+.selec_roles_prg_stcomb_v {
+    background-color: #00cc00;
+    color: #00cc00;
+}
+
+.selec_roles_prg_stcomb_a {
+    background-color: #ffff00;
+    color: #ffff00;
+}
+
+.grid_cell_red {
+    background-color: #FF000060;
+    border: 3px solid #FF000060;
+}
+
+.grid_cell_yellow {
+    background-color: #ffff0060;
+    border: 3px solid #ffff0060;
+}
+
+.grid_cell_green_editable {
+    background-color: #C6E0B470;
+}
+
+.grid_cell_green_edited {
+    background-color: #54823570;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+}
+
+#right {
+    float:right;
+}

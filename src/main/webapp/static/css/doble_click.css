@@ -1,0 +1,10 @@
+/* 
+    Created on : 5/01/2017, 06:34:06 PM
+    Author     : rpacheco
+*/
+
+#grid_grid_fcolumns div {
+    background-image: url("../images/doble_click.jpg");
+    background-repeat: no-repeat;
+    background-size: 10px 13px;
+}
