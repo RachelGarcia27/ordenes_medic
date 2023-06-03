@@ -5,8 +5,11 @@ VALUES
 INSERT INTO cliente
 (cve_cliente,ape_pat,ape_mat,nombre,telefono,direccion)
 VALUES
-('CL002','Pedroza','Suñiga','Martín','8190435421','Madero #543, Col. Los Tolteca');
-
+('CL002','Pedroza','Zuñiga','Martín','8190435421','Madero #543, Col. Los Tolteca');
+INSERT INTO cliente
+(cve_cliente,ape_pat,ape_mat,nombre,telefono,direccion)
+VALUES
+('CL003','García','Hernandez','Alba Elena','8190435421','Miralomas #113, Col. Los Herrajes');
 
 INSERT INTO producto
 (cod_producto,nombre,existencia,precio_compra,precio_venta,cve_proveedor)
