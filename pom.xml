@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>orders_project</name>
 	<description>Aplicacion para la administración de ordenes</description>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>1.8</java.version>
         <jackson.version>1.9.13</jackson.version>
